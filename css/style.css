@@ -1,0 +1,191 @@
+/* css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset */
+.header{
+    height: 400px;
+    width: 100;
+	margin: 0 auto;
+    background-image: url(../img/the-urban-landscape-1698285.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header h1{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+#selectArea{
+    font-size: 16px;
+	width: 500px;
+	height: 40px;
+	position: relative;
+	top: 170px;
+	left: 450px;
+	opacity: 0.7; 
+}
+.topfourArea{
+    background: white;
+	width: 700px;
+	height: 80px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #dddddd;
+	margin: auto;
+	margin-top: 250px;
+	padding: 10px;
+}
+.btn1{
+	background: #8A82CC;
+	width: 120px;
+	font-size: 16px;
+	color: white;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 5px 0px;
+}
+
+.btn2{
+	background: #FFA782;
+	width: 120px;
+	font-size: 16px;
+	color: white;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 5px 0px;
+}
+
+.btn3{
+	background: #F5D105;
+	width: 120px;
+	font-size: 16px;
+	color: white;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 5px 0px;
+}
+
+.btn4{
+	background: #559AC8;
+	width: 120px;
+	font-size: 16px;
+	color: white;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 5px 0px;
+}
+.main{
+    background:white;
+	padding-top:100px;
+	padding-left:250px;
+	height:auto;
+	margin-bottom:80px;
+	border-bottom: 2px solid black;
+}
+.main .showName{
+	margin-left:458px;
+	margin-top:50px;
+	margin-bottom:30px;
+	font-size:30px;
+	color:#8A82CC;
+}
+.main>ul>li{
+	display:block;
+	width:464px;
+	height:279px;
+	float:left;
+	box-shadow:1px 1px #DDDDDD;
+	background:white;
+	margin:9px;
+	position:relative;
+}
+.main .area{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:150px;
+	z-index:2;
+}
+.main ul li img{
+	width:464px;
+	height:155px;
+	position:relative;
+}
+.main .area h4{
+	margin-left:20px;
+	font-size:22px;
+	font-weight: bold;
+	font-family:標楷體;
+	text-shadow:0.5px 0.5px black;
+	color:white;
+}
+.main .icon{
+    width: 15px;
+    height: 18px;
+    margin-right: 5px;
+}
+.main .text-r{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.main .area ul li{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.main .gotop{
+    position: absolute;
+	right: 50px;
+	bottom: 100px;
+}
+.clearfix{
+    clear: both;
+}
